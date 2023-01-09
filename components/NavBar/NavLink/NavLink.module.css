@@ -1,0 +1,19 @@
+.nav_link {
+  display: flex;
+  padding: 8px;
+  font-size: 17px;
+}
+
+.image {
+  margin-right: 8px;
+  opacity: 0.8;
+}
+
+.dropdown_icon {
+  border-left: 4.3px solid transparent;
+  border-right: 4.3px solid transparent;
+  border-top: 4.3px solid #8197a4;
+  margin-left: 7px;
+  position: relative;
+  top: 10px;
+}

@@ -1,0 +1,40 @@
+.primary_btn {
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Amazon Ember,sans-serif !important;
+    font-size: 17px;
+    padding: 7px 20px;
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+    border-radius: 3px;
+    background-color: #0f79af;
+    color: rgba(242, 244, 246, 0.9);
+    font-weight: 400;
+  }
+
+  .large{
+    width : 280px;
+    padding: 12px;
+  }
+
+  .light_font{
+    font-weight: 300;
+  }
+
+ 
+  
+  .glow_on_hover:hover{
+      background-color: #1399de;
+  }
+
+
+
+
+  @media only screen and (max-width: 760px){
+    .primary_btn{
+      width: max-content;
+    }
+  }
+
+

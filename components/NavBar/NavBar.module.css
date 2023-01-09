@@ -1,0 +1,83 @@
+.nav {
+  background-color: rgb(26, 36, 46);
+  color: white;
+  display: flex;
+  padding: 5px 0px;
+  justify-content: space-between;
+  cursor: pointer;
+  position: fixed;
+  width: 100%;
+  min-height : 9vh;
+}
+
+.nav_list {
+  list-style: none;
+  color: rgba(242, 244, 246, 0.9);
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin : 0 25px;
+}
+
+
+.nav .logo {
+  width: 170px;
+  scale: 0.65;
+}
+
+.logo_container {
+  padding: 0 !important;
+}
+
+
+
+
+.search_bar {
+  text-size-adjust: 100%;
+  vertical-align: middle;
+  font-family: inherit;
+  border-radius: 3px;
+  outline: 0;
+  box-sizing: inherit;
+  transition: width 0.2s ease-in-out;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxjaXJjbGUgaWQ9ImEiIGN4PSI4IiBjeT0iOCIgcj0iOCIvPjxtYXNrIGlkPSJiIiBtYXNrQ29udGVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgbWFza1VuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiBmaWxsPSIjZmZmIj48dXNlIHhsaW5rOmhyZWY9IiNhIi8+PC9tYXNrPjwvZGVmcz48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIG9wYWNpdHk9Ii43Ij48dXNlIHN0cm9rZT0iI0ZGRiIgbWFzaz0idXJsKCNiKSIgc3Ryb2tlLXdpZHRoPSI0IiB4bGluazpocmVmPSIjYSIvPjxwYXRoIGQ9Im0xMy40MTQgMTEgNi4zNjcgNi4zNjdhLjk5NS45OTUgMCAwIDEtLjAwMyAxLjQxMWMtLjM5LjM5LTEuMDMuMzg1LTEuNDEuMDAzTDEyIDEyLjQxNCAxMy40MTQgMTFaIiBmaWxsPSIjRkZGIi8+PC9nPjwvc3ZnPg==");
+  background-repeat: no-repeat;
+  box-shadow: none;
+  color: #8197a4;
+  cursor: pointer;
+  float: right;
+  font-size: 17px;
+  height: auto;
+  line-height: 24px;
+  margin: 0 5px;
+  padding: 7px 0;
+  pointer-events: all;
+  background-color: transparent;
+  border: 0;
+  width: 0;
+  background-position: center left 7px;
+  padding-left: 34px;
+}
+
+.search_bar_active{
+    width : 200px;
+    outline : 1px solid rgb(200,200,200)
+}
+
+
+
+
+@media only screen and (max-width: 760px) {
+    .nav_list_left li{
+      display: none;
+    }
+
+    .nav_list_left .logo_container{
+      display: block;
+    }
+
+    .logo_container img{
+      width: 100px !important;
+    }
+}

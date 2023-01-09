@@ -1,0 +1,28 @@
+.footer{
+    padding : 2% 0 3% 0;
+    text-align: center;
+    background-color: #222222;
+    color : white;
+}
+
+
+.footer ul{
+    margin-bottom: 10px;
+}
+
+.footer li{
+    display: inline;
+    color : #0f79af;
+    cursor: pointer;
+    margin-right: 12px;
+    font-size: 15px;
+}
+
+.footer li:hover{
+    color : #90dffe;
+}
+
+.footer label{
+    color : #949494;
+}
+

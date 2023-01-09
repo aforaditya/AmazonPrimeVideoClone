@@ -1,0 +1,16 @@
+@import url('http://fonts.cdnfonts.com/css/amazon-ember');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Amazon Ember', sans-serif;
+    height: 100vh;
+    font-weight: 300;
+}
+
+#__next{
+    height: 100%;
+}
