@@ -4,10 +4,15 @@ import ChannelsCard from '../components/ChannelsCard/ChannelsCard.js'
 import Footer from '../components/Footer/Footer.js'
 import Gap from '../components/Gap/Gap.js'
 import styles from './index.module.css'
+import Head from 'next/head.js'
 
 
 function HomePage() {
   return <>
+  <Head>
+    <title>Amazon Prime Video Clone</title>
+  </Head>
+
     <NavBar />
     <Gap />
     
